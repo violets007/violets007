@@ -1,0 +1,11 @@
+/node_modules
+/.idea
+**/.cache
+docs/.vuepress/dist
+**/.temp
+/deploy.sh
+/package-lock.json
+/Aurora-plugin/
+/script/
+CHANGELOG.md
+aurora-theme-template.zip
