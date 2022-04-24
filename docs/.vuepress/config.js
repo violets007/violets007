@@ -136,7 +136,7 @@ module.exports = {
         [
             "link",
             {
-                href: "https://ooszy.cco.vin/img/ico/yuan.png",
+                href: "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
                 rel: "icon",
             },
         ],
@@ -368,7 +368,7 @@ module.exports = {
         heroImg: 'avatar.jpg',
 
         //logo图片地址，默认为https://ooszy.cco.vin/img/ico/yuan.png
-        logo: "https://ooszy.cco.vin/img/ico/yuan.png",
+        logo: "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
 
         //文章懒加载图片 仅限文章，首页文章占位图片并不是这个
         lazyLoadingImg: "https://ooszy.cco.vin/img/blog-public/ljz.gif",
@@ -722,20 +722,20 @@ module.exports = {
                         describe: "永远相信美好的事情即将发生~",
                         cover: 'https://ooszy.cco.vin/img/blog-note/image-20211106100608395.png?x-oss-process=style/pictureProcess1'
                     },
-                    {
-                        title: "月月月子喵",
-                        url: "https://haozi.moe",
-                        logo: "https://haozi.moe/css/images/logo_christmas.png",
-                        describe: "可爱的月子酱",
-                        cover: 'https://ooszy.cco.vin/img/blog-note/image-20211106100009647.png?x-oss-process=style/pictureProcess1'
-                    },
-                    {
-                        title: "疫情在线捐款系统",
-                        url: "http://yq.vipblogs.cn/",
-                        logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
-                        describe: "基于echarts的疫情捐款系统",
-                        cover: ''
-                    },
+                    // {
+                    //     title: "月月月子喵",
+                    //     url: "https://haozi.moe",
+                    //     logo: "https://haozi.moe/css/images/logo_christmas.png",
+                    //     describe: "可爱的月子酱",
+                    //     cover: 'https://ooszy.cco.vin/img/blog-note/image-20211106100009647.png?x-oss-process=style/pictureProcess1'
+                    // },
+                    // {
+                    //     title: "疫情在线捐款系统",
+                    //     url: "http://yq.vipblogs.cn/",
+                    //     logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
+                    //     describe: "基于echarts的疫情捐款系统",
+                    //     cover: ''
+                    // },
                     {
                         title: "疫情在线捐款系统后台登录",
                         url: "http://admin.vipblogs.cn/",
@@ -790,7 +790,7 @@ module.exports = {
             url: "https://aurora.cco.vin",
 
             //自己站点logo
-            logo: "https://ooszy.cco.vin/img/ico/yuan.png",
+            logo: "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
 
             //自己站点描述
             describe: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
@@ -1176,7 +1176,7 @@ module.exports = {
         homeTopText: '置顶',
 
         //侧边栏一句话描述
-        sidebarDesc: '喜欢动漫，Coding目前是一名大三学生,CS专业,坐标西南边陲',
+        sidebarDesc: '喜欢动漫,码仔',
         /*
         * 下面的是v1.13.0版本的配置
         * */

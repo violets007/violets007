@@ -462,7 +462,7 @@ siteInformation: {
     url: "https://aurora.cco.vin",
 
     //自己站点logo
-    logo: "https://ooszy.cco.vin/img/ico/yuan.png",
+    logo: "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
 
     //自己站点描述
     describe: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
@@ -528,7 +528,7 @@ siteInformation: {
     url: "https://aurora.cco.vin",
 
     //自己站点logo
-    logo: "https://ooszy.cco.vin/img/ico/yuan.png",
+    logo: "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
 
     //自己站点描述
     describe: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
@@ -684,7 +684,7 @@ module.exports = {
         [
             "link",
             {
-                href: "https://ooszy.cco.vin/img/ico/yuan.png",
+                href: "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
                 rel: "icon",
             },
         ],
@@ -1644,18 +1644,18 @@ module.exports = {
                 logo: "https://cdn.jsdelivr.net/gh/AyagawaSeirin/Assets/img/logo.jpg",
                 describe: "永远相信美好的事情即将发生~",
             },
-            {
-                title: "月月月子喵",
-                url: "https://haozi.moe",
-                logo: "https://haozi.moe/css/images/logo_christmas.png",
-                describe: "可爱的月子酱",
-            },
-            {
-                title: "疫情在线捐款系统",
-                url: "http://yq.vipblogs.cn/",
-                logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
-                describe: "基于echarts的疫情捐款系统",
-            },
+            // {
+            //     title: "月月月子喵",
+            //     url: "https://haozi.moe",
+            //     logo: "https://haozi.moe/css/images/logo_christmas.png",
+            //     describe: "可爱的月子酱",
+            // },
+            // {
+            //     title: "疫情在线捐款系统",
+            //     url: "http://yq.vipblogs.cn/",
+            //     logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
+            //     describe: "基于echarts的疫情捐款系统",
+            // },
             {
                 title: "疫情在线捐款系统后台登录",
                 url: "http://admin.vipblogs.cn/",

@@ -1,6 +1,6 @@
 ---
 # date是手动设置此篇文章编写的时间
-date: "2022/01/15 18:08"
+date: "2022/04/15 18:08"
 
 # 手动设置此篇文章封面
 coverUrl: "articles/Reflection-Technology.jpg"
@@ -26,7 +26,7 @@ categories: [java,java反射技术]
 
 
 
-# 什么是反射？
+# 什么是反射?
 
 反射 (Reflection) 是 Java 的特征之一，它允许运行中的 Java 程序获取自身的信息，并且可以操作类或对象的内部属性。
 

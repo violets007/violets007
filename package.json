@@ -1,7 +1,7 @@
 {
-  "name": "aurora-blog",
+  "name": "sdf-aurora",
   "version": "1.0.0",
-  "description": "aurora-blog",
+  "description": "aurora blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
