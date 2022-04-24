@@ -162,7 +162,7 @@ module.exports = {
     theme: 'aurora', //如果需要使用在线主题，那么打开此注释
 
     //站点title
-    title: "I do not follow,i lives is always all you want",
+    title: "violets007个人博客",
 
     lang: 'zh-CN',
 
