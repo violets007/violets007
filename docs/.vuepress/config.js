@@ -174,11 +174,11 @@ module.exports = {
         //这里配置导航栏项，建议将navbar提取出，比如navbar.js
         navbar: [
 
-            {
-                text: '快速开始',
-                link: '/readme/',
-                iconClass: 'aurora-navbar-si-glyph-game-1'
-            },
+            // {
+            //     text: '快速开始',
+            //     link: '/readme/',
+            //     iconClass: 'aurora-navbar-si-glyph-game-1'
+            // },
             /*{
                 text: "所有配置",
                 link: '/home/config.html',
@@ -188,19 +188,19 @@ module.exports = {
                 text: '好用网站',
                 iconClass: 'aurora-navbar-si-glyph-glass-water',
                 children: [
-                    {
-                        text: 'npm',
-                        children: [
-                            {
-                                text: 'npm',
-                                link: 'https://www.npmjs.com/'
-                            },
-                            {
-                                text: '我自己的包',
-                                link: 'https://www.npmjs.com/settings/qsyyke/packages'
-                            }
-                        ]
-                    },
+                    // {
+                    //     text: 'npm',
+                    //     children: [
+                    //         {
+                    //             text: 'npm',
+                    //             link: 'https://www.npmjs.com/'
+                    //         },
+                    //         {
+                    //             text: '我自己的包',
+                    //             link: 'https://www.npmjs.com/settings/qsyyke/packages'
+                    //         }
+                    //     ]
+                    // },
                     {
                         text: '搜索引擎',
                         children: [
@@ -221,107 +221,107 @@ module.exports = {
                                 text: '阿里图标',
                                 link: 'https://www.iconfont.cn/',
                             },
-                            {
-                                text: '好看网站',
-                                link: 'https://solstice23.top/'
-                            }
+                            // {
+                            //     text: '好看网站',
+                            //     link: 'https://solstice23.top/'
+                            // }
                         ]
                     }
                 ]
             },
-            {
-                text: '问题和bug',
-                iconClass: 'aurora-navbar-si-glyph-emoticon',
-                children: [
-                    {
-                        text: 'CHANGELOG',
-                        children: [
-                            '/issue/CHANGELOG.md'
-                        ]
-                    },
-                    {
-                        text: '主题详细搭建教程',
-                        children: [
-                            '/readme/introduce.md',
-                            '/use/useTheme.md'
-                        ]
-                    },
-                    {
-                        text: '问题',
-                        children: [
-                            '/issue/',
-                        ]
-                    },
-                    {
-                        text: 'bug',
-                        children: [
-                            '/issue/bug.md',
-                        ]
-                    }
-                ]
-            },
-            {
-                text: '其他配置',
-                iconClass: 'aurora-navbar-shoulijindu-xuanzhong',
-                children: [
-                    {
-                        children: [
-                            "/home/deploy.md",
-                        ],
-                        text: "home",
-                    },
-                    {
-                        children: [
-                            "/comment/README.md",
+            // {
+            //     text: '问题和bug',
+            //     iconClass: 'aurora-navbar-si-glyph-emoticon',
+            //     children: [
+            //         {
+            //             text: 'CHANGELOG',
+            //             children: [
+            //                 '/issue/CHANGELOG.md'
+            //             ]
+            //         },
+            //         {
+            //             text: '主题详细搭建教程',
+            //             children: [
+            //                 '/readme/introduce.md',
+            //                 '/use/useTheme.md'
+            //             ]
+            //         },
+            //         {
+            //             text: '问题',
+            //             children: [
+            //                 '/issue/',
+            //             ]
+            //         },
+            //         {
+            //             text: 'bug',
+            //             children: [
+            //                 '/issue/bug.md',
+            //             ]
+            //         }
+            //     ]
+            // },
+            // {
+            //     text: '其他配置',
+            //     iconClass: 'aurora-navbar-shoulijindu-xuanzhong',
+            //     children: [
+            //         {
+            //             children: [
+            //                 "/home/deploy.md",
+            //             ],
+            //             text: "home",
+            //         },
+            //         {
+            //             children: [
+            //                 "/comment/README.md",
 
-                            "/page/README.md",
-                        ],
-                        text: "其他配置",
-                    },
-                    {
-                        children: [
-                            "/v1.3.0/README.md",
+            //                 "/page/README.md",
+            //             ],
+            //             text: "其他配置",
+            //         },
+            //         {
+            //             children: [
+            //                 "/v1.3.0/README.md",
 
-                        ],
-                        text: "V1.3.2",
-                    }
-                ],
-            },
+            //             ],
+            //             text: "V1.3.2",
+            //         }
+            //     ],
+            // },
             {
                 text: "about",
                 link: "/about",
                 iconClass: 'aurora-navbar-a-ziyuan107'
             },
-            {
-                text: 'link',
-                link: '/link',
-                iconClass: 'aurora-navbar-guide'
-            },
-            {
-                text: 'tag',
-                link: '/tag',
-                iconClass: 'aurora-navbar-hua2'
-            },
-            {
-                text: 'chat',
-                link: '/mood',
-                iconClass: 'aurora-navbar-weather'
-            },
-            {
-                text: "photo",
-                link: '/photo',
-                iconClass: 'aurora-navbar-kechengguanli'
-            },
-            {
-                text: "time",
-                link: '/archive',
-                iconClass: 'aurora-navbar-si-glyph-egg'
-            },
-            {
-                text: 'Aurora',
-                link: 'https://github.com/vuepress-aurora/vuepress-theme-aurora',
-                iconClass: 'aurora-navbar-github-circle'
-            }
+            // {
+            //     text: 'link',
+            //     link: '/link',
+            //     iconClass: 'aurora-navbar-guide'
+            // },
+            // {
+            //     text: 'tag',
+            //     link: '/tag',
+            //     iconClass: 'aurora-navbar-hua2'
+            // },
+            // {
+            //     text: 'chat',
+            //     link: '/mood',
+            //     iconClass: 'aurora-navbar-weather'
+            // },
+            // {
+            //     text: "photo",
+            //     link: '/photo',
+            //     iconClass: 'aurora-navbar-kechengguanli'
+            // },
+            // {
+            //     text: "time",
+            //     link: '/archive',
+            //     iconClass: 'aurora-navbar-si-glyph-egg'
+            // },
+            // {
+            //     text: 'Aurora',
+            //     link: 'https://github.com/vuepress-aurora/vuepress-theme-aurora',
+            //     iconClass: 'aurora-navbar-github-circle'
+            // }
         ],
 
         //禁用黑夜模式，当前版本未提供
@@ -447,7 +447,7 @@ module.exports = {
         // cancelIcoHref: "https://ooszy.cco.vin/img/ico/quxiao.svg", 在v1.3.2中移除
 
         //logo旁文字 默认值为Aurora
-        logoTitle: "zixuan007",
+        logoTitle: "violets007",
 
         headTitle: "this is headTitle",
 
@@ -468,12 +468,10 @@ module.exports = {
                 bar: false,
                 title: "我?",
                 describe: [
-                    "这是关于页面支持html<a href='https://blog.cco.vin' target='_blank'>这是一个标签</a>",
                     "喜欢安静,不喜社交",
                     "喜欢听音乐,什么类型都可",
                     "喜欢技术,coding",
                     "目前正在学习java后端",
-                    '最喜欢的电影是"忠犬八公的故事",梦想以后独居也能有一只"Hachi"',
                     "主题是我自己开发的，前端太菜了，如果有bug，希望大家多多包涵`Σ(￣□￣||)` ",
                     "有点懒",
                     "目前除了编程没有什么兴趣爱好",
@@ -496,11 +494,8 @@ module.exports = {
                 title: "大三规划",
                 describe: [
                     "做项目",
-                    "软考二级",
-                    "英语四级",
-                    "想找实习",
-                    "复习数据结构",
-                    "驾照",
+                    "准备工作中...",
+                    "定个小目标,20W",
                     "做点什么有意义的事",
                 ],
                 tag: ["大家加油呀`Σ(￣□￣||)` ..."],
@@ -592,7 +587,7 @@ module.exports = {
                     },
                     {
                         name: "dubbo",
-                        score: 61,
+                        score: 10,
                     },
                 ],
             },
@@ -619,36 +614,36 @@ module.exports = {
                     },
                 ],
             },
-            {
-                title: "关于主题",
-                describe: [
-                    "theme-ccds主题是我自己独立开发，是一款基于vuepress，对默认主题进行了大量修改，我以前使用的是wordpress的博客主题，但是我对PHP不了解，想改成自己想要的主题，太难了，最近在学vue，正好看到可以使用vuepress来搭建 博客，就将默认主题改成现在这个样，并且喜欢vuepress的最主要原因是，它可以 直接将本地的markdown文档进行编译部署，我原来博客，我记了几个月的笔记，不太想再慢慢从本地复制到WordPress进行发布，以至于博客几个月没有发布文章了，虽然有技术可以解决，但还是喜欢vuepress，简直是懒癌福音，如果你喜欢的话，可以在我的GitHub进行下载，使用文档可以查看https://theme-ccds.cco.vin，该主题已将所有的配置进行抽离，你现在看到的所有信息，都抽离在了一个配置文件中，但是目前还并不能做到开箱即用，如果使用的人多了，我可以进行修改，并且我自己也写了几个组件，包括文章页面看到的顶部图片，友情链接，海报分享功能等等 ，可以在你想使用的地方，直接使用这些组件就可以，该主题我加入了vuex，对前端不太了解，有很多css不对的地方，请大家多多包涵，Thanks♪(･ω･)ﾉ",
-                ],
-            },
-            {
-                bar: false,
-                title: "更新日志",
-                describe: [
-                    "开发永不止步......",
-                    "2021.9.12 增加相册功能，解决已知bug",
-                    "2021.9.9 增加海报分享功能",
-                    "2021.9.5 重新修改文章SEO自动配置，使用新规则，解决从tag页面进入文章页面，懒加载失效问题",
-                    "2021.9.4 重新初始化仓库",
-                    "2.21.8.10 -- 2021.9 主题开发",
-                ],
-                tag: ['想求个star`(⌒▽⌒)`'],
-                showTag: true,
-            },
-            {
-                title: "主题后续计划及闲话",
-                bar: false,
-                tag: [],
-                showTag: false,
-                describe: [
-                    "为说说页面增加随时发布，随时修改功能",
-                    "增加每日计划打卡功能",
-                ],
-            },
+            // {
+            //     title: "关于主题",
+            //     describe: [
+            //         "theme-ccds主题是我自己独立开发，是一款基于vuepress，对默认主题进行了大量修改，我以前使用的是wordpress的博客主题，但是我对PHP不了解，想改成自己想要的主题，太难了，最近在学vue，正好看到可以使用vuepress来搭建 博客，就将默认主题改成现在这个样，并且喜欢vuepress的最主要原因是，它可以 直接将本地的markdown文档进行编译部署，我原来博客，我记了几个月的笔记，不太想再慢慢从本地复制到WordPress进行发布，以至于博客几个月没有发布文章了，虽然有技术可以解决，但还是喜欢vuepress，简直是懒癌福音，如果你喜欢的话，可以在我的GitHub进行下载，使用文档可以查看https://theme-ccds.cco.vin，该主题已将所有的配置进行抽离，你现在看到的所有信息，都抽离在了一个配置文件中，但是目前还并不能做到开箱即用，如果使用的人多了，我可以进行修改，并且我自己也写了几个组件，包括文章页面看到的顶部图片，友情链接，海报分享功能等等 ，可以在你想使用的地方，直接使用这些组件就可以，该主题我加入了vuex，对前端不太了解，有很多css不对的地方，请大家多多包涵，Thanks♪(･ω･)ﾉ",
+            //     ],
+            // },
+            // {
+            //     bar: false,
+            //     title: "更新日志",
+            //     describe: [
+            //         "开发永不止步......",
+            //         "2021.9.12 增加相册功能，解决已知bug",
+            //         "2021.9.9 增加海报分享功能",
+            //         "2021.9.5 重新修改文章SEO自动配置，使用新规则，解决从tag页面进入文章页面，懒加载失效问题",
+            //         "2021.9.4 重新初始化仓库",
+            //         "2.21.8.10 -- 2021.9 主题开发",
+            //     ],
+            //     tag: ['想求个star`(⌒▽⌒)`'],
+            //     showTag: true,
+            // },
+            // {
+            //     title: "主题后续计划及闲话",
+            //     bar: false,
+            //     tag: [],
+            //     showTag: false,
+            //     describe: [
+            //         "为说说页面增加随时发布，随时修改功能",
+            //         "增加每日计划打卡功能",
+            //     ],
+            // },
         ],
 
         //拿取对象 在后续版本中，会对此项进行优化
@@ -736,13 +731,13 @@ module.exports = {
                     //     describe: "基于echarts的疫情捐款系统",
                     //     cover: ''
                     // },
-                    {
-                        title: "疫情在线捐款系统后台登录",
-                        url: "http://admin.vipblogs.cn/",
-                        logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
-                        describe: "该捐款系统后台登录",
-                        cover: ''
-                    },
+                    // {
+                    //     title: "疫情在线捐款系统后台登录",
+                    //     url: "http://admin.vipblogs.cn/",
+                    //     logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
+                    //     describe: "该捐款系统后台登录",
+                    //     cover: ''
+                    // },
                 ]
             },
             {
@@ -769,13 +764,13 @@ module.exports = {
                         describe: "永远相信美好的事情即将发生~",
                         cover: 'https://ooszy.cco.vin/img/blog-note/image-20211106100608395.png?x-oss-process=style/pictureProcess1'
                     },
-                    {
-                        title: "月月月子喵",
-                        url: "https://haozi.moe",
-                        logo: "https://haozi.moe/css/images/logo_christmas.png",
-                        describe: "可爱的月子酱",
-                        cover: 'https://ooszy.cco.vin/img/blog-note/image-20211106100009647.png?x-oss-process=style/pictureProcess1'
-                    },
+                    // {
+                    //     title: "月月月子喵",
+                    //     url: "https://haozi.moe",
+                    //     logo: "https://haozi.moe/css/images/logo_christmas.png",
+                    //     describe: "可爱的月子酱",
+                    //     cover: 'https://ooszy.cco.vin/img/blog-note/image-20211106100009647.png?x-oss-process=style/pictureProcess1'
+                    // },
                 ]
             },
             
@@ -818,7 +813,7 @@ module.exports = {
 
         //页脚信息，支持HTML，这是一个数组
         footer: [
-            "Copyright © by zixuan007 All Rights Reserved.",
+            "Copyright © by violets007 All Rights Reserved.",
             "<a target='_blank' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53060202000142' style='display:inline-block;text-decoration:none;height:20px;line-height:20px;'><img src='' style='float:left;'/><p style='float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;'>湘公网安备 53060202000142号</p></a>",
         ],
 
@@ -832,7 +827,7 @@ module.exports = {
         isShowRunTime: true,
 
         //网站开始时间，请按照以下格式进行
-        startRunTime: "8/7/2021 12:22:00",
+        startRunTime: "8/7/2022 12:22:00",
 
         //网站运行时间前缀
         prefixRuntime: "小破站已运行",
@@ -850,7 +845,7 @@ module.exports = {
         recommendNoTitle: "`╮(￣▽￣)╭`",
 
         //tag页，没有标题时，代替文字 默认是下面这个
-        tagNoTitle: "暂时还没有标题哟",
+        //tagNoTitle: "暂时还没有标题哟",
 
         //首页中间框的话语
         mood: "青衫烟雨客",
@@ -949,7 +944,7 @@ module.exports = {
             description: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
 
             //作者
-            author: "zixuan007",
+            author: "violets007",
 
             //博客前缀
             preBlog: "Aurora",
