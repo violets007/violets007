@@ -345,5 +345,5 @@ public class OrderController {
 
 ![icon](springcloud/server-list1.png)
 
-**最后调用服务就可以看见了**
+**最后调用服务就可以看见**
 ![icon](springcloud/call-service.png)
