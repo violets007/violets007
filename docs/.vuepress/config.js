@@ -835,7 +835,7 @@ module.exports = {
         //公告，是一个数组，支持图片，HTML
         message: [
             '该博客主题为Aurora,<a href="https://github.com/qsyyke/vuepress-theme-aurora">vuepress-theme-Aurora</a>',
-            "主题交流群: 681602026，欢迎各位大佬进群交流",
+            
         ],
 
         //文章底部最大推荐文章数 默认值为30
