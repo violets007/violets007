@@ -414,7 +414,7 @@ module.exports = {
                 sidebar: true
             },
             {
-                aHref: "https://github.com/zixuan2020/",
+                aHref: "https://github.com/violets007/",
                 isHome: true,
                 show: true,
                 sidebar: true,
@@ -455,7 +455,7 @@ module.exports = {
         description: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
 
         //站点关键词，在后续版本中，还需优化 请使用英文状态下的逗号','隔开
-        keyword: "vuepress主题,vuepress theme,生活琐事,二次元博客,简约博客,博客主题,静态主题,zixuan007",
+        keyword: "vuepress主题,vuepress theme,生活琐事,二次元博客,简约博客,博客主题,静态主题,violets007",
 
         //样式控制面板打开之后，休眠多长时间自动关闭面板，单位毫秒
         slideTime: 300000,
