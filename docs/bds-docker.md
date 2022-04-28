@@ -102,9 +102,7 @@ docker volume create liteloaderbds
 >
 > -v 映射数据卷 数据卷名字/容器bds文件夹
 >
-> -t 打开STDIN，用于控制台交互
->
-> -t 分配tty设备，该可以支持终端登录，默认为false
+> -t 为容器重新分配一个伪输入终端，通常与 -i 同时使用
 >
 > -m   指定容器的内存上限 
 
