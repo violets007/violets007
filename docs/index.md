@@ -2,24 +2,24 @@
 home: true
 # heroImage: /img/web.png
 heroText: violets007 blog
-tagline: Web端技术博客，积跬步以至千里，致敬每个爱学习的你。
+tagline: 成功不是最终的，失败也不是致命的：最重要的是继续前进的勇气。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
-features: # 可选的
-  - title: 后端
-    details: Java、SpringBoot、Mybatis框架等前端技术
-    link: /web/ # 可选
-    imgUrl: /img/springboot.png # 可选
-  - title: 服务
-    details: springcloud微服务
-    link: /ui/
-    imgUrl: /img/springcloud.png
-  - title: 技术
-    details: 技术文档、教程、技巧、总结等文章
-    link: /technology/
-    imgUrl: /img/java.png
+# features: # 可选的
+#   - title: 后端
+#     details: Java、SpringBoot、Mybatis框架等前端技术
+#     link: /web/ # 可选
+#     imgUrl: /img/springboot.png # 可选
+#   - title: 服务
+#     details: springcloud微服务
+#     link: /ui/
+#     imgUrl: /img/springcloud.png
+#   - title: 技术
+#     details: 技术文档、教程、技巧、总结等文章
+#     link: /technology/
+#     imgUrl: /img/java.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed

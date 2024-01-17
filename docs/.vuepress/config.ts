@@ -19,7 +19,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: "violets007 blog",
-      description: 'web前后端技术博客,专注web端学习与总结。Java,SpringBoot,SpringCloud,git,github等技术文章。',
+      description: '成功不是最终的，失败也不是致命的：最重要的是继续前进的勇气。',
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -68,14 +68,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           },
         ],
       },
-      {
-        text: '页面',
-        link: '/ui/',
-        items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-        ],
-      },
+      // {
+      //   text: '页面',
+      //   link: '/ui/',
+      //   items: [
+      //     { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+      //     { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      //   ],
+      // },
       {
         text: '技术',
         link: '/technology/',
@@ -98,15 +98,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       { text: '关于', link: '/about/' },
-      {
-        text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/',
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
-      },
+      // {
+      //   text: '收藏',
+      //   link: '/pages/beb6c0bd8a66cea6/',
+      //   // items: [
+      //   //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
+      //   //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
+      //   //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+      //   // ],
+      // },
       {
         text: '索引',
         link: '/archives/',
@@ -137,9 +137,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
     bodyBgImg: [
-      'https://i.328888.xyz/2023/02/11/RveBx.jpeg',
-      'https://i.328888.xyz/2023/02/11/Rvd5U.jpeg',
-      'https://i.328888.xyz/2023/02/11/Rv5Zv.jpeg'
+      '/img/bg.jpg',
+      // 'https://i.328888.xyz/2023/02/11/Rvd5U.jpeg',
+      // 'https://i.328888.xyz/2023/02/11/Rv5Zv.jpeg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     // bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
@@ -225,7 +225,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,css3,html5,Node,git,github,markdown',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
