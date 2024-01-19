@@ -137,7 +137,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
     bodyBgImg: [
-      '/img/bg.jpg',
+      'https://img.violets007.cn/file/5c4cb95484faa71e5390b.jpg',
       // 'https://i.328888.xyz/2023/02/11/Rvd5U.jpeg',
       // 'https://i.328888.xyz/2023/02/11/Rv5Zv.jpeg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
@@ -231,6 +231,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
+    ['meta', { name: 'msvalidate.01', content: '20B407E5524C37523353DC4AB90EAF97' }], // 让bing收录
     // [
     //   'script',
     //   {
