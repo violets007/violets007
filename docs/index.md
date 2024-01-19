@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: violets007 blog
+heroText: violets007 博客
 tagline: 成功不是最终的，失败也不是致命的：最重要的是继续前进的勇气。
 # actionText: 立刻进入 →
 # actionLink: /web/

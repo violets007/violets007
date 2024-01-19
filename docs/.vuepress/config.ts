@@ -14,7 +14,7 @@ const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
-
+  
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -209,7 +209,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xugaoyi',
+        name: 'violets007',
         link: 'https://github.com/xugaoyi'
       }
     },
@@ -230,7 +230,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Tg0FIdYXcb' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-    ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
+    ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.30/twikoo.all.min.js' }],
     ['meta', { name: 'msvalidate.01', content: '20B407E5524C37523353DC4AB90EAF97' }], // 让bing收录
     // [
     //   'script',
