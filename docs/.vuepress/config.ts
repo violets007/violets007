@@ -228,11 +228,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,css3,html5,Node,git,github,markdown',
       },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-Tg0FIdYXcb' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
     ['meta', { name: 'msvalidate.01', content: '20B407E5524C37523353DC4AB90EAF97' }], // 让bing收录
-    ['meta', { name: 'baidu-site-verification', content: 'codeva-Tg0FIdYXcb' }], // 让百度收录
     // [
     //   'script',
     //   {
