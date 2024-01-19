@@ -254,6 +254,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     'reading-progress', // 文章进度条插件
     'cursor-effects', // 点击鼠标爆炸效果
     'vuepress-plugin-baidu-autopush', // 百度自动推送
+    'img-lazy', // 图片懒加载
 
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
