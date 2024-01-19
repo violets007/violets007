@@ -232,6 +232,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
     ['meta', { name: 'msvalidate.01', content: '20B407E5524C37523353DC4AB90EAF97' }], // 让bing收录
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-Tg0FIdYXcb' }], // 让百度收录
     // [
     //   'script',
     //   {
