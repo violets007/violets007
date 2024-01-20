@@ -136,8 +136,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
+
+    
+
     bodyBgImg: [
-      'https://img.violets007.cn/file/5c4cb95484faa71e5390b.jpg',
+      // 'https://img.violets007.cn/file/5c4cb95484faa71e5390b.jpg',
       // 'https://i.328888.xyz/2023/02/11/Rvd5U.jpeg',
       // 'https://i.328888.xyz/2023/02/11/Rv5Zv.jpeg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
@@ -163,6 +166,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     sidebar: 'structuring',
+
+    
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
@@ -353,6 +358,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         
     //   },
     // ],
+
+    // 彩虹丝带插件
+    [
+      'ribbon',
+      {
+         size: 90, // width of the ribbon, default: 90
+         opacity: 0.8, // opacity of the ribbon, default: 0.3
+         zIndex: -1, // z-index property of the background, default: -1
+      },
+   ],
 
     // 评论插件
     [
