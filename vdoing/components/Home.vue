@@ -22,7 +22,7 @@
             {{ homeData.heroText }}
           </h1>
           <p v-if="homeData.tagline" class="description">
-            {{ homeData.tagline }}
+            {{ homeData.tagline }}  
           </p>
           <p class="action" v-if="homeData.actionText && homeData.actionLink">
             <NavLink class="action-button" :item="actionLink" />

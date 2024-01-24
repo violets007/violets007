@@ -14,8 +14,6 @@
     "publish": "cd ./vdoing && npm publish && cd .. && yarn updateTheme",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D"
   },
-
-
   "license": "MIT",
   "devDependencies": {
     "dayjs": "^1.9.7",
@@ -37,8 +35,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "vuepress-plugin-reading-progress": "^1.0.10"
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-seo": "^0.2.0"
   }
-
-  
 }

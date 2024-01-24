@@ -14,7 +14,7 @@ const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
-  
+
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -136,7 +136,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
 
-    
+
 
     bodyBgImg: [
       // 'https://img.violets007.cn/file/5c4cb95484faa71e5390b.jpg',
@@ -166,7 +166,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     sidebar: 'structuring',
 
-    
+
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
@@ -354,26 +354,41 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     //   //   '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
     //     // },
 
-        
+
     //   },
     // ],
+
+    // SEO优化插件
+    ['vuepress-plugin-seo', {
+      siteTitle: (_, $site) => $site.title,
+      title: $page => $page.title,
+      description: $page => $page.frontmatter.description,
+      author: (_, $site) => $site.themeConfig.author,
+      tags: $page => $page.frontmatter.tags,
+      twitterCard: _ => 'summary_large_image',
+      type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
+      url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http')) ? $site.themeConfig.domain + $page.frontmatter.image : $page.frontmatter.image),
+      publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+      modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+    }],
 
     // 彩虹丝带插件
     [
       'ribbon',
       {
-         size: 90, // width of the ribbon, default: 90
-         opacity: 0.8, // opacity of the ribbon, default: 0.3
-         zIndex: -1, // z-index property of the background, default: -1
+        size: 90, // width of the ribbon, default: 90
+        opacity: 0.8, // opacity of the ribbon, default: 0.3
+        zIndex: -1, // z-index property of the background, default: -1
       },
-   ],
+    ],
 
     // 评论插件
     [
       {
         name: 'custom-plugins',
         globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-    }
+      }
     ],
 
     [
