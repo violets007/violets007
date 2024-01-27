@@ -391,6 +391,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       }
     ],
 
+
     [
       '@vuepress/last-updated', // "上次更新"时间格式
       {

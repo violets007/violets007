@@ -240,6 +240,15 @@ export default {
     }
   },
   mounted() {
+
+    // 打印消息
+    console.log(
+      `%c ${this.$themeConfig.consoleInfo} %c ${this.$themeConfig.consoleInfo2} %c`,
+      'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+      'background:#41b883 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+      'background:transparent'
+    )
+
     // 初始化页面时链接锚点无法跳转到指定id的解决方案
     const hash = document.location.hash;
     if (hash.length > 1) {
