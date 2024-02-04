@@ -9,7 +9,7 @@ tags:
   - idea 插件
 author: 
   name: violets007
-  link: https://github.com/xugaoyi
+  link: https://github.com/violets007
 titleTag: 原创 # v1.9.0+
 ---
 
